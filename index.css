@@ -32,11 +32,21 @@
 .footer a{
     color:white;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+
 .footer {
-    text-align: right;
-    color: white;
+    padding-top: 5px;
+    color: grey;
     float: left;
     background-color: grey;
+    height:200px;
+    width: 100%;
 }
 
 
